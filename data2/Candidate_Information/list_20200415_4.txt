@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><response>
+<header>
+<resultCode>INFO-00</resultCode>
+<resultMsg>NORMAL SERVICE</resultMsg>
+</header>
+<body>
+<items>
+  <item>
+    <num>1</num>
+    <sgId>20200415</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100135404</huboid>
+    <sggName>중구</sggName>
+    <sdName>부산광역시</sdName>
+    <wiwName>중구</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>미래통합당</jdName>
+    <name>최진봉</name>
+    <hanjaName>崔震奉</hanjaName>
+    <gender>남</gender>
+    <birthday>19550118</birthday>
+    <age>65</age>
+    <addr>부산광역시 중구 광복중앙로</addr>
+    <jobId>77</jobId>
+    <job>부동산 임대업</job>
+    <eduId>69</eduId>
+    <edu>동의대학교 대학원 정치외교학과 박사과정 수료</edu>
+    <career1>(전)부산시 중구의회 의장</career1>
+    <career2>(전)새마을운동 중구 지회장(8,9대)</career2>
+    <dugsu>11698</dugsu>
+    <dugyul>48.14</dugyul>
+  </item>
+  <item>
+    <num>2</num>
+    <sgId>20200415</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100135419</huboid>
+    <sggName>안성시</sggName>
+    <sdName>경기도</sdName>
+    <wiwName>안성시</wiwName>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>김보라</name>
+    <hanjaName>金補羅</hanjaName>
+    <gender>여</gender>
+    <birthday>19690908</birthday>
+    <age>50</age>
+    <addr>경기도 안성시 서운면 동양촌길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>68</eduId>
+    <edu>연세대학교 간호학과 졸업</edu>
+    <career1>(전) 제9대 경기도의원</career1>
+    <career2>(현) 더불어민주당 중앙당 부대변인</career2>
+    <dugsu>44930</dugsu>
+    <dugyul>46.31</dugyul>
+  </item>
+  <item>
+    <num>3</num>
+    <sgId>20200415</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100136687</huboid>
+    <sggName>고성군</sggName>
+    <sdName>강원도</sdName>
+    <wiwName>고성군</wiwName>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>함명준</name>
+    <hanjaName>咸明埈</hanjaName>
+    <gender>남</gender>
+    <birthday>19600316</birthday>
+    <age>60</age>
+    <addr>강원도 고성군 간성읍 간성로52번길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>765</eduId>
+    <edu>울산공과대학 병설 공업전문대학 조선과 졸업 </edu>
+    <career1>(전) 고성군의회 6대, 7대 의원</career1>
+    <career2>(현) 더불어민주당 해양수산 특별위원회 부위원장</career2>
+    <dugsu>8529</dugsu>
+    <dugyul>48.66</dugyul>
+  </item>
+  <item>
+    <num>4</num>
+    <sgId>20200415</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100136750</huboid>
+    <sggName>횡성군</sggName>
+    <sdName>강원도</sdName>
+    <wiwName>횡성군</wiwName>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>장신상</name>
+    <hanjaName>張信相</hanjaName>
+    <gender>남</gender>
+    <birthday>19560515</birthday>
+    <age>63</age>
+    <addr>강원도 횡성군 횡성읍 어사매로</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>69</eduId>
+    <edu>상지대학교 대학원 행정학과 (석사과정)수료</edu>
+    <career1>(전)지방공무원 38년 근무</career1>
+    <career2>(전)횡성군의회 의원</career2>
+    <dugsu>14882</dugsu>
+    <dugyul>52.28</dugyul>
+  </item>
+  <item>
+    <num>5</num>
+    <sgId>20200415</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100135408</huboid>
+    <sggName>천안시</sggName>
+    <sdName>충청남도</sdName>
+    <wiwName>천안시서북구</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>미래통합당</jdName>
+    <name>박상돈</name>
+    <hanjaName>朴商敦</hanjaName>
+    <gender>남</gender>
+    <birthday>19490903</birthday>
+    <age>70</age>
+    <addr>충청남도 천안시 동남구 신부8길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>서울대학교 행정대학원 졸업(행정학석사)</edu>
+    <career1>(전)제17, 18대 국회의원</career1>
+    <career2>(전)대천시장</career2>
+    <dugsu>146429</dugsu>
+    <dugyul>46.38</dugyul>
+  </item>
+  <item>
+    <num>6</num>
+    <sgId>20200415</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100136692</huboid>
+    <sggName>진안군</sggName>
+    <sdName>전라북도</sdName>
+    <wiwName>진안군</wiwName>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>전춘성</name>
+    <hanjaName>全春晟</hanjaName>
+    <gender>남</gender>
+    <birthday>19610412</birthday>
+    <age>59</age>
+    <addr>전라북도 진안군 진안읍 성산2길</addr>
+    <jobId>224</jobId>
+    <job>무직</job>
+    <eduId>765</eduId>
+    <edu>군산전문학교(현 서해대학) 관광과  졸업</edu>
+    <career1>(전)진안군 행정복지국장</career1>
+    <career2>(전)진안읍장</career2>
+    <dugsu>8954</dugsu>
+    <dugyul>51.3</dugyul>
+  </item>
+  <item>
+    <num>7</num>
+    <sgId>20200415</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100136688</huboid>
+    <sggName>함평군</sggName>
+    <sdName>전라남도</sdName>
+    <wiwName>함평군</wiwName>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>이상익</name>
+    <hanjaName>李尙益</hanjaName>
+    <gender>남</gender>
+    <birthday>19560707</birthday>
+    <age>63</age>
+    <addr>전라남도 함평군 함평읍 영수길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>68</eduId>
+    <edu>초당대학교 사회복지학과 졸업</edu>
+    <career1>(현)더불어민주당 함평빛그린산단조성특별위원회 위원장</career1>
+    <career2>(현)더불어민주당 전남도당 부위원장</career2>
+    <dugsu>11598</dugsu>
+    <dugyul>52.97</dugyul>
+  </item>
+  <item>
+    <num>8</num>
+    <sgId>20200415</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100135442</huboid>
+    <sggName>상주시</sggName>
+    <sdName>경상북도</sdName>
+    <wiwName>상주시</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>미래통합당</jdName>
+    <name>강영석</name>
+    <hanjaName>姜永錫</hanjaName>
+    <gender>남</gender>
+    <birthday>19660311</birthday>
+    <age>54</age>
+    <addr>경상북도 상주시 낙양3길</addr>
+    <jobId>75</jobId>
+    <job>정당인 </job>
+    <eduId>221</eduId>
+    <edu>국민대학교 정치대학원 선거공학과 졸업</edu>
+    <career1>(전)경북도의원 (2선)</career1>
+    <career2>(전)국회의원 보좌관</career2>
+    <dugsu>43347</dugsu>
+    <dugyul>72.77</dugyul>
+  </item>
+</items>
+<numOfRows>10000</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>8</totalCount>
+</body>
+</response>

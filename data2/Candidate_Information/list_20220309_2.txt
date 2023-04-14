@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><response>
+<header>
+<resultCode>INFO-00</resultCode>
+<resultMsg>NORMAL SERVICE</resultMsg>
+</header>
+<body>
+<items>
+  <item>
+    <num>1</num>
+    <sgId>20220309</sgId>
+    <sgTypecode>2</sgTypecode>
+    <huboid>100138397</huboid>
+    <sggName>중구남구</sggName>
+    <sdName>대구광역시</sdName>
+    <wiwName>남구</wiwName>
+    <giho>7</giho>
+    <gihoSangse/>
+    <jdName>무소속</jdName>
+    <name>임병헌</name>
+    <hanjaName>林炳憲</hanjaName>
+    <gender>남</gender>
+    <birthday>19531010</birthday>
+    <age>68</age>
+    <addr>대구광역시 남구 앞산순환로</addr>
+    <jobId>75</jobId>
+    <job>정치인</job>
+    <eduId>221</eduId>
+    <edu>영남대학교 대학원 졸업(행정학 석사)</edu>
+    <career1>(전)대구광역시 남구청장</career1>
+    <career2>(전)제20대 대통령선거 윤석열 후보 조직본부 공정희망연대 대구본부장</career2>
+    <dugsu>32037</dugsu>
+    <dugyul>22.39</dugyul>
+  </item>
+  <item>
+    <num>2</num>
+    <sgId>20220309</sgId>
+    <sgTypecode>2</sgTypecode>
+    <huboid>100138405</huboid>
+    <sggName>청주시상당구</sggName>
+    <sdName>충청북도</sdName>
+    <wiwName>청주시상당구</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>정우택</name>
+    <hanjaName>鄭宇澤</hanjaName>
+    <gender>남</gender>
+    <birthday>19530218</birthday>
+    <age>69</age>
+    <addr>충청북도 청주시 상당구 중흥로</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>미국 하와이대 대학원 졸업(경제학 박사)(1984.6~1987.5)</edu>
+    <career1>(전)국회의원(15,16,19,20대)</career1>
+    <career2>(전)제32대 충청북도지사</career2>
+    <dugsu>67033</dugsu>
+    <dugyul>56.92</dugyul>
+  </item>
+  <item>
+    <num>3</num>
+    <sgId>20220309</sgId>
+    <sgTypecode>2</sgTypecode>
+    <huboid>100138406</huboid>
+    <sggName>안성시</sggName>
+    <sdName>경기도</sdName>
+    <wiwName>안성시</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>김학용</name>
+    <hanjaName>金學容</hanjaName>
+    <gender>남</gender>
+    <birthday>19611210</birthday>
+    <age>60</age>
+    <addr>경기도 안성시 금산1길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>68</eduId>
+    <edu>중앙대학교 경제학과 졸업</edu>
+    <career1>(전)제18·19·20대 국회의원</career1>
+    <career2/>
+    <dugsu>61445</dugsu>
+    <dugyul>54.18</dugyul>
+  </item>
+  <item>
+    <num>4</num>
+    <sgId>20220309</sgId>
+    <sgTypecode>2</sgTypecode>
+    <huboid>100138465</huboid>
+    <sggName>서초구갑</sggName>
+    <sdName>서울특별시</sdName>
+    <wiwName>서초구</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>조은희</name>
+    <hanjaName>趙恩禧</hanjaName>
+    <gender>여</gender>
+    <birthday>19610520</birthday>
+    <age>60</age>
+    <addr>서울특별시 서초구 바우뫼로31길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>서울대학교 대학원 국어국문학과 졸업 (문학석사)</edu>
+    <career1>(현)윤석열 대통령후보 선거대책본부 국민공감 미래정책단장</career1>
+    <career2>(전)서초구청장</career2>
+    <dugsu>84364</dugsu>
+    <dugyul>72.72</dugyul>
+  </item>
+  <item>
+    <num>5</num>
+    <sgId>20220309</sgId>
+    <sgTypecode>2</sgTypecode>
+    <huboid>100138535</huboid>
+    <sggName>종로구</sggName>
+    <sdName>서울특별시</sdName>
+    <wiwName>종로구</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>최재형</name>
+    <hanjaName>崔在亨</hanjaName>
+    <gender>남</gender>
+    <birthday>19560902</birthday>
+    <age>65</age>
+    <addr>서울특별시 양천구 목동중앙로7길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>68</eduId>
+    <edu>서울대학교 법학과 졸업</edu>
+    <career1>(전)감사원장</career1>
+    <career2>(전)사법연수원장</career2>
+    <dugsu>49637</dugsu>
+    <dugyul>52.09</dugyul>
+  </item>
+</items>
+<numOfRows>10000</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>5</totalCount>
+</body>
+</response>

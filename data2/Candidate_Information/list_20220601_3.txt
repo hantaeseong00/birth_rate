@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?><response>
+<header>
+<resultCode>INFO-00</resultCode>
+<resultMsg>NORMAL SERVICE</resultMsg>
+</header>
+<body>
+<items>
+  <item>
+    <num>1</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100149260</huboid>
+    <sggName>서울특별시</sggName>
+    <sdName>서울특별시</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>오세훈</name>
+    <hanjaName>吳世勲</hanjaName>
+    <gender>남</gender>
+    <birthday>19610104</birthday>
+    <age>61</age>
+    <addr>서울특별시 광진구 능동로4길</addr>
+    <jobId>73</jobId>
+    <job>서울특별시장</job>
+    <eduId>221</eduId>
+    <edu>고려대학교 법학대학원 졸업(법학박사)</edu>
+    <career1>(현)제38대 서울특별시장</career1>
+    <career2>(전)제16대 국회의원</career2>
+    <dugsu>2608277</dugsu>
+    <dugyul>59.05</dugyul>
+  </item>
+  <item>
+    <num>2</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100149514</huboid>
+    <sggName>부산광역시</sggName>
+    <sdName>부산광역시</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>박형준</name>
+    <hanjaName>朴亨埈</hanjaName>
+    <gender>남</gender>
+    <birthday>19600119</birthday>
+    <age>62</age>
+    <addr>부산광역시 해운대구 달맞이길65번길</addr>
+    <jobId>73</jobId>
+    <job>부산광역시장</job>
+    <eduId>221</eduId>
+    <edu>고려대학교 대학원 사회학과 박사과정 졸업(문학박사)</edu>
+    <career1>(전)국회사무총장</career1>
+    <career2>(현)부산광역시장</career2>
+    <dugsu>938601</dugsu>
+    <dugyul>66.36</dugyul>
+  </item>
+  <item>
+    <num>3</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100147274</huboid>
+    <sggName>대구광역시</sggName>
+    <sdName>대구광역시</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>홍준표</name>
+    <hanjaName>洪準杓</hanjaName>
+    <gender>남</gender>
+    <birthday>19541205</birthday>
+    <age>67</age>
+    <addr>대구광역시 수성구 수성로</addr>
+    <jobId>75</jobId>
+    <job>정치인</job>
+    <eduId>68</eduId>
+    <edu>고려대학교 법과대학 행정학과 졸업</edu>
+    <career1>(전) 제15,16,17,18,21대 국회의원</career1>
+    <career2>(전) 제20대 대통령선거 국민의힘 경선후보</career2>
+    <dugsu>685159</dugsu>
+    <dugyul>78.75</dugyul>
+  </item>
+  <item>
+    <num>4</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100139645</huboid>
+    <sggName>인천광역시</sggName>
+    <sdName>인천광역시</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>유정복</name>
+    <hanjaName>劉正福</hanjaName>
+    <gender>남</gender>
+    <birthday>19570616</birthday>
+    <age>64</age>
+    <addr>인천광역시 남동구 논현로</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>69</eduId>
+    <edu>연세대학교 대학원 정치학과 박사과정 수료</edu>
+    <career1>(전)인천광역시장</career1>
+    <career2>(전)행정안전부장관</career2>
+    <dugsu>634250</dugsu>
+    <dugyul>51.76</dugyul>
+  </item>
+  <item>
+    <num>5</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100140244</huboid>
+    <sggName>광주광역시</sggName>
+    <sdName>광주광역시</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>강기정</name>
+    <hanjaName>姜琪正</hanjaName>
+    <gender>남</gender>
+    <birthday>19641203</birthday>
+    <age>57</age>
+    <addr>광주광역시 북구 대천로</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>전남대학교 행정대학원 졸업(행정학 석사)</edu>
+    <career1>(전)청와대 정무수석</career1>
+    <career2>(전)3선 국회의원(제17, 18, 19대)</career2>
+    <dugsu>334699</dugsu>
+    <dugyul>74.91</dugyul>
+  </item>
+  <item>
+    <num>6</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100139063</huboid>
+    <sggName>대전광역시</sggName>
+    <sdName>대전광역시</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>이장우</name>
+    <hanjaName>李莊雨</hanjaName>
+    <gender>남</gender>
+    <birthday>19650210</birthday>
+    <age>57</age>
+    <addr>대전광역시 동구 용운로</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>대전대학교 대학원 행정학과 졸업(행정학 박사)</edu>
+    <career1>(전)제19,20대 국회의원(대전 동구)</career1>
+    <career2>(전)윤석열 국민캠프 조직1본부장</career2>
+    <dugsu>310035</dugsu>
+    <dugyul>51.19</dugyul>
+  </item>
+  <item>
+    <num>7</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100139025</huboid>
+    <sggName>울산광역시</sggName>
+    <sdName>울산광역시</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>김두겸</name>
+    <hanjaName>金斗謙</hanjaName>
+    <gender>남</gender>
+    <birthday>19580125</birthday>
+    <age>64</age>
+    <addr>울산광역시 남구 북부순환도로</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>울산대학교 일반대학원 졸업(행정학박사)</edu>
+    <career1>(전)울산광역시 남구청장(민선 3,4대)</career1>
+    <career2>(전)울산광역시 남구의회 의장</career2>
+    <dugsu>290563</dugsu>
+    <dugyul>59.78</dugyul>
+  </item>
+  <item>
+    <num>8</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100145752</huboid>
+    <sggName>경기도</sggName>
+    <sdName>경기도</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>김동연</name>
+    <hanjaName>金東兗</hanjaName>
+    <gender>남</gender>
+    <birthday>19570128</birthday>
+    <age>65</age>
+    <addr>경기도 수원시 영통구 도청로18번길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>미국 미시간대학교 대학원 졸업(정책학박사, 1989. 9. ~ 1993. 6.)</edu>
+    <career1>(전) 경제부총리 겸 기획재정부 장관</career1>
+    <career2>(전) 아주대학교 총장</career2>
+    <dugsu>2827593</dugsu>
+    <dugyul>49.06</dugyul>
+  </item>
+  <item>
+    <num>9</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100141401</huboid>
+    <sggName>강원도</sggName>
+    <sdName>강원도</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>김진태</name>
+    <hanjaName>金鎭台</hanjaName>
+    <gender>남</gender>
+    <birthday>19641013</birthday>
+    <age>57</age>
+    <addr>강원도 춘천시 동내면 춘천순환로</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>68</eduId>
+    <edu>서울대학교 법과대학 공법학과 졸업</edu>
+    <career1>(전)19, 20대 국회의원</career1>
+    <career2>(전)춘천지검 원주지청장</career2>
+    <dugsu>409461</dugsu>
+    <dugyul>54.07</dugyul>
+  </item>
+  <item>
+    <num>10</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100143970</huboid>
+    <sggName>충청북도</sggName>
+    <sdName>충청북도</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>김영환</name>
+    <hanjaName>金榮煥</hanjaName>
+    <gender>남</gender>
+    <birthday>19550527</birthday>
+    <age>67</age>
+    <addr>충청북도 괴산군 청천면 도경로후영6길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>연세대학교 경제대학원 졸업(경제학석사)</edu>
+    <career1>(전)윤석열대통령당선인 특별고문</career1>
+    <career2>(전)과학기술부장관</career2>
+    <dugsu>395517</dugsu>
+    <dugyul>58.19</dugyul>
+  </item>
+  <item>
+    <num>11</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100147152</huboid>
+    <sggName>충청남도</sggName>
+    <sdName>충청남도</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>김태흠</name>
+    <hanjaName>金泰欽</hanjaName>
+    <gender>남</gender>
+    <birthday>19630111</birthday>
+    <age>59</age>
+    <addr>충청남도 보령시 웅천읍 신기2길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>서강대학교 공공정책대학원 졸업(행정학석사)</edu>
+    <career1>(전) 충청남도 정무부지사</career1>
+    <career2>(전) 제 19·20·21대 국회의원</career2>
+    <dugsu>468658</dugsu>
+    <dugyul>53.87</dugyul>
+  </item>
+  <item>
+    <num>12</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100141512</huboid>
+    <sggName>전라북도</sggName>
+    <sdName>전라북도</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>김관영</name>
+    <hanjaName>金寬永</hanjaName>
+    <gender>남</gender>
+    <birthday>19691115</birthday>
+    <age>52</age>
+    <addr>전라북도 군산시 회현면 풍촌길</addr>
+    <jobId>85</jobId>
+    <job>변호사</job>
+    <eduId>221</eduId>
+    <edu>서울대학교 행정대학원 졸업(행정학 석사)</edu>
+    <career1>(전) 제19·20대 국회의원</career1>
+    <career2>(전) 더불어민주당 이재명 대통령후보 선대위 국민통합위원장</career2>
+    <dugsu>591510</dugsu>
+    <dugyul>82.11</dugyul>
+  </item>
+  <item>
+    <num>13</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100147373</huboid>
+    <sggName>전라남도</sggName>
+    <sdName>전라남도</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>김영록</name>
+    <hanjaName>金瑛錄</hanjaName>
+    <gender>남</gender>
+    <birthday>19550217</birthday>
+    <age>67</age>
+    <addr>전라남도 무안군 삼향읍 남악로</addr>
+    <jobId>73</jobId>
+    <job>전라남도지사(정무직 공무원)</job>
+    <eduId>221</eduId>
+    <edu>미국 시라큐스대학교 맥스웰대학원 졸업(행정학석사 1985.8~1987.6)</edu>
+    <career1>(전)농림축산식품부장관</career1>
+    <career2>(현)전라남도지사</career2>
+    <dugsu>672433</dugsu>
+    <dugyul>75.74</dugyul>
+  </item>
+  <item>
+    <num>14</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100150424</huboid>
+    <sggName>경상북도</sggName>
+    <sdName>경상북도</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>이철우</name>
+    <hanjaName>李喆雨</hanjaName>
+    <gender>남</gender>
+    <birthday>19550815</birthday>
+    <age>66</age>
+    <addr>경상북도 안동시 풍천면 도청대로</addr>
+    <jobId>73</jobId>
+    <job>경상북도지사</job>
+    <eduId>221</eduId>
+    <edu>연세대학교 행정대학원 졸업(정치학석사) </edu>
+    <career1>(전)제18.19.20대 국회의원</career1>
+    <career2>(현)경상북도지사</career2>
+    <dugsu>904675</dugsu>
+    <dugyul>77.95</dugyul>
+  </item>
+  <item>
+    <num>15</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100147641</huboid>
+    <sggName>경상남도</sggName>
+    <sdName>경상남도</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>박완수</name>
+    <hanjaName>朴完洙</hanjaName>
+    <gender>남</gender>
+    <birthday>19550810</birthday>
+    <age>66</age>
+    <addr>경상남도 창원시 의창구 북면 감계로</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>경남대학교 대학원 졸업(행정학박사)</edu>
+    <career1>(전)민선3·4기 창원시장, 초대통합 창원시장</career1>
+    <career2>(전)20·21대 국회의원</career2>
+    <dugsu>963473</dugsu>
+    <dugyul>65.7</dugyul>
+  </item>
+  <item>
+    <num>16</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100147644</huboid>
+    <sggName>제주특별자치도</sggName>
+    <sdName>제주특별자치도</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>오영훈</name>
+    <hanjaName>吳怜勳</hanjaName>
+    <gender>남</gender>
+    <birthday>19681214</birthday>
+    <age>53</age>
+    <addr>제주특별자치도 제주시 중앙로</addr>
+    <jobId>75</jobId>
+    <job>정치인</job>
+    <eduId>221</eduId>
+    <edu>제주대학교 경영대학원 경영학과 졸업(경영학석사)</edu>
+    <career1>(전) 제20, 21대 국회의원</career1>
+    <career2>(전) 제주대학교 총학생회장</career2>
+    <dugsu>163116</dugsu>
+    <dugyul>55.14</dugyul>
+  </item>
+  <item>
+    <num>17</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>3</sgTypecode>
+    <huboid>100141365</huboid>
+    <sggName>세종특별자치시</sggName>
+    <sdName>세종특별자치시</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>최민호</name>
+    <hanjaName>崔旼鎬</hanjaName>
+    <gender>남</gender>
+    <birthday>19561024</birthday>
+    <age>65</age>
+    <addr>세종특별자치시  연동면 노송송담길</addr>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>단국대학교 대학원 졸업(행정학 박사)</edu>
+    <career1>(전)국무총리 비서실장</career1>
+    <career2>(전)행정중심복합도시 건설청장</career2>
+    <dugsu>78415</dugsu>
+    <dugyul>52.83</dugyul>
+  </item>
+</items>
+<numOfRows>10000</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>17</totalCount>
+</body>
+</response>
