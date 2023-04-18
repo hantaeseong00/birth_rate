@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><response>
+<header>
+<resultCode>INFO-00</resultCode>
+<resultMsg>NORMAL SERVICE</resultMsg>
+</header>
+<body>
+<items>
+  <item>
+    <num>1</num>
+    <sgId>20160413</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100119150</huboid>
+    <sggName>달서구</sggName>
+    <sdName>대구광역시</sdName>
+    <wiwName>달서구</wiwName>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>새누리당</jdName>
+    <name>이태훈</name>
+    <hanjaName>李泰勳</hanjaName>
+    <gender>남</gender>
+    <birthday>19561020</birthday>
+    <age>59</age>
+    <addr/>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>영남대학교 대학원 졸업 (행정학 석사)</edu>
+    <career1>(전) 달서구 부구청장</career1>
+    <career2>(전) 대구광역시 문화체육국장</career2>
+    <dugsu>147433</dugsu>
+    <dugyul>60.79</dugyul>
+  </item>
+  <item>
+    <num>2</num>
+    <sgId>20160413</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100119965</huboid>
+    <sggName>동구</sggName>
+    <sdName>광주광역시</sdName>
+    <wiwName>동구</wiwName>
+    <giho>3</giho>
+    <gihoSangse/>
+    <jdName>국민의당</jdName>
+    <name>김성환</name>
+    <hanjaName>金成宦</hanjaName>
+    <gender>남</gender>
+    <birthday>19611011</birthday>
+    <age>54</age>
+    <addr/>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>영국 쉐필드대학원 졸업(정치학 박사, 2000. 1. 1. ~ 2008. 4. 9.)</edu>
+    <career1>(전)국무총리실 국정과제관리관</career1>
+    <career2>(전)청와대 경제수석실 선임행정관</career2>
+    <dugsu>27191</dugsu>
+    <dugyul>52.29</dugyul>
+  </item>
+  <item>
+    <num>3</num>
+    <sgId>20160413</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100119167</huboid>
+    <sggName>양주시</sggName>
+    <sdName>경기도</sdName>
+    <wiwName>양주시</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>이성호</name>
+    <hanjaName>李成浩</hanjaName>
+    <gender>남</gender>
+    <birthday>19570716</birthday>
+    <age>58</age>
+    <addr/>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>고려대학교 정책대학원 졸업(행정학석사)</edu>
+    <career1>(현)국회의원 정성호 정책특보단장</career1>
+    <career2>(현)더불어민주당 경기도당민생경제특별위원회 위원장</career2>
+    <dugsu>46009</dugsu>
+    <dugyul>51.91</dugyul>
+  </item>
+  <item>
+    <num>4</num>
+    <sgId>20160413</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100119777</huboid>
+    <sggName>구리시</sggName>
+    <sdName>경기도</sdName>
+    <wiwName>구리시</wiwName>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName>새누리당</jdName>
+    <name>백경현</name>
+    <hanjaName>白慶鉉</hanjaName>
+    <gender>남</gender>
+    <birthday>19580621</birthday>
+    <age>57</age>
+    <addr/>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>연세대학교 행정대학원 졸업(행정학석사)</edu>
+    <career1>(전)구리시 행정지원국장</career1>
+    <career2>(전)구리시 주민지원국장</career2>
+    <dugsu>37490</dugsu>
+    <dugyul>42.89</dugyul>
+  </item>
+  <item>
+    <num>5</num>
+    <sgId>20160413</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100119659</huboid>
+    <sggName>진천군</sggName>
+    <sdName>충청북도</sdName>
+    <wiwName>진천군</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>송기섭</name>
+    <hanjaName>宋起燮</hanjaName>
+    <gender>남</gender>
+    <birthday>19560818</birthday>
+    <age>59</age>
+    <addr/>
+    <jobId>75</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>아주대학교 대학원 건설교통공학과 졸업(공학박사)</edu>
+    <career1>(전)행정중심복합도시건설청장</career1>
+    <career2>(전)대전지방국토관리청장</career2>
+    <dugsu>18453</dugsu>
+    <dugyul>53.63</dugyul>
+  </item>
+  <item>
+    <num>6</num>
+    <sgId>20160413</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100119160</huboid>
+    <sggName>익산시</sggName>
+    <sdName>전라북도</sdName>
+    <wiwName>익산시</wiwName>
+    <giho>3</giho>
+    <gihoSangse/>
+    <jdName>국민의당</jdName>
+    <name>정헌율</name>
+    <hanjaName>鄭憲律</hanjaName>
+    <gender>남</gender>
+    <birthday>19580325</birthday>
+    <age>58</age>
+    <addr/>
+    <jobId>75</jobId>
+    <job>정치인</job>
+    <eduId>221</eduId>
+    <edu>서울시립대학교 일반대학원 졸업(행정학박사)</edu>
+    <career1>(전)전라북도 행정부지사</career1>
+    <career2>(전)국민권익위원회 상임위원</career2>
+    <dugsu>75383</dugsu>
+    <dugyul>52.1</dugyul>
+  </item>
+  <item>
+    <num>7</num>
+    <sgId>20160413</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100119478</huboid>
+    <sggName>김해시</sggName>
+    <sdName>경상남도</sdName>
+    <wiwName>김해시</wiwName>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>더불어민주당</jdName>
+    <name>허성곤</name>
+    <hanjaName>許成坤</hanjaName>
+    <gender>남</gender>
+    <birthday>19550709</birthday>
+    <age>60</age>
+    <addr/>
+    <jobId>225</jobId>
+    <job>정당인</job>
+    <eduId>221</eduId>
+    <edu>동아대 대학원 도시조경학과 졸업(도시공학박사)</edu>
+    <career1>(전)부산진해경제자유구역청장</career1>
+    <career2>(전)경상남도 기획조정실장</career2>
+    <dugsu>116932</dugsu>
+    <dugyul>50.2</dugyul>
+  </item>
+  <item>
+    <num>8</num>
+    <sgId>20160413</sgId>
+    <sgTypecode>4</sgTypecode>
+    <huboid>100119658</huboid>
+    <sggName>거창군</sggName>
+    <sdName>경상남도</sdName>
+    <wiwName>거창군</wiwName>
+    <giho>6</giho>
+    <gihoSangse/>
+    <jdName>무소속</jdName>
+    <name>양동인</name>
+    <hanjaName>梁東仁</hanjaName>
+    <gender>남</gender>
+    <birthday>19530603</birthday>
+    <age>62</age>
+    <addr/>
+    <jobId>224</jobId>
+    <job>무직</job>
+    <eduId>68</eduId>
+    <edu>부산대학교 법정대학 행정학과 졸업</edu>
+    <career1>(전)제39대 거창군수</career1>
+    <career2>(전)제53대 거창경찰서장</career2>
+    <dugsu>15964</dugsu>
+    <dugyul>45.96</dugyul>
+  </item>
+</items>
+<numOfRows>10000</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>8</totalCount>
+</body>
+</response>
