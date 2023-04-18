@@ -53,7 +53,8 @@ ServiceKey = "hDMqY7Vq9Ql%2F%2FDBdvOJnrnr0WpoXLZeV%2Fta7mwwz8eX8qLB2c35BbGco%2FR
 pageNo = 1
 numOfRows = 10000
 #선거날짜
-sgIds = ["20220309","20200415","20220601"]
+# "20120411","2012219","20140604",
+sgIds = ["20150429","20151028","20160413","20170412","20170509","20180613","20190403","20220309","20200415","20210407","20220309","20220601"]
 #선거타입
 #1. 대통령 선거
 #2. 국회의원 선거 & 전국동시지방선거
@@ -110,9 +111,10 @@ if __name__ != "__main__" :
 
     print(init["jdName"].unique())
 
-    init.to_csv(path+'Candidate_Information_kr.csv', na_rep='무소속', encoding="euc-kr")
+    init.to_csv('./data/csv/Candidate_Information_kr.csv', na_rep='무소속', encoding="euc-kr")
 
-    ci = pd.read_csv("./data/csv/Candidate_Information.csv", header=0)
+if __name__ != "__main__" :
+    ci = pd.read_csv("./data/csv/Candidate_Information_kr.csv", header=0, encoding="euc-kr")
     ci = ci[ci["sgTypecode"]!=2]
     # print(ci)
     url_base = "https://apis.data.go.kr/9760000/ElecPrmsInfoInqireService/getCnddtElecPrmsInfoInqire?"
@@ -140,14 +142,17 @@ if __name__ != "__main__" :
                 pass
 
 
-    ci.to_csv('./data/csv/promise.csv')
+    ci.to_csv('./data/csv/promise.csv', encoding="utf-8")
     ci.to_csv('./data/csv/promise_kr.csv', encoding="euc-kr")
 
-else:
+if __name__ == "__main__" :
     g_font_path = r"C:\Windows\Fonts\malgun.ttf"
 
-    topic = "출산율"
+    topics = ["저출산","출산","출산율"]
+    topic = "저출산"
     text = ""
+    types = ["all","word"]
+    type = 0
     okt = Okt()
 
     word_count = 30
@@ -157,7 +162,8 @@ else:
 
     G = nx.Graph()
 
-    promise_list = pd.read_csv(f'./data/csv/promise.csv', header=0, encoding="utf-8").fillna("")
+    # promise_list = pd.read_csv(f'./data/csv/promise.csv', header=0, encoding="utf-8").fillna("")
+    promise_list = pd.read_csv(f'./data/csv/promise_kr.csv', header=0, encoding="euc-kr").fillna("")
     promise_list = promise_list[promise_list["sgTypecode"]!=2]
     for idx in tqdm(promise_list.index):
 
@@ -170,60 +176,85 @@ else:
         print(promise_list.loc[idx, "name"])
         # if "출산" not in text: continue
 
-    noun = okt.nouns(text)
+    for topic in topics:
+        noun = okt.nouns(text)
 
-    stop_words = [v for v in noun if len(v) < 2]
-    noun = [word for word in noun if word not in stop_words]
-    noun = [word for word in noun if word not in rm_words]
+        stop_words = [v for v in noun if len(v) < 2]
+        noun = [word for word in noun if word not in stop_words]
+        noun = [word for word in noun if word not in rm_words]
 
-    #토픽이 포함 된 공약 전체
-    word_list = noun
 
-    #토픽의 전후 한단어
-    # for i in tqdm(range(len(noun))):
-    #     if noun[i] == topic:
-    #         word_list.append(topic)
-    #         if i!= 0:
-    #             word_list.append(noun[i-1])
-    #         if i!=len(noun)-1:
-    #             word_list.append(noun[i+1])
+        for type in range(2):
+            word_list = []
+            #토픽이 포함 된 공약 전체
+            if(type == 0):
+                word_list = noun
 
-    cnts = Counter(word_list)
-    # cnts = Counter({key: value for key, value in cnts.items() if value > 9})
-    dict_data = dict(cnts)
-    print(dict_data)
+            #토픽의 전후 한단어
+            if(type == 1):
+                for i in tqdm(range(len(noun))):
+                    if noun[i] == topic:
+                        word_list.append(topic)
+                        if i!= 0:
+                            word_list.append(noun[i-1])
+                        if i!=len(noun)-1:
+                            word_list.append(noun[i+1])
 
-    sorted_dict = {k: v for k, v in sorted(dict_data.items(), key=lambda item: item[1])}
+            cnts = Counter(word_list)
+            # cnts = Counter({key: value for key, value in cnts.items() if value > 9})
+            dict_data = dict(cnts)
+            print(dict_data)
 
-    print(sorted_dict)
+            sorted_dict = {k: v for k, v in sorted(dict_data.items(), key=lambda item: item[1])}
 
-    font = r"C:\PythonWork\PycharmWork\ProjectTeam1\data\crawling\font\BlackHanSans-Regular.ttf"
-    result = f'wordcloud_{topic}'
+            print(sorted_dict)
 
-    # wc = WordCloud(font_path=font,
-    #                background_color='#aaaacc')
-    # wc.generate_from_frequencies(dict_data)
+            font = r"C:\PythonWork\PycharmWork\ProjectTeam1\data\crawling\font\BlackHanSans-Regular.ttf"
+            result = f'wordcloud_{topic}'
 
-    icon = Image.open('./pngwing_com.png')  # 마스크가 될 이미지 불러오기
-    plt.imshow(icon)
+            # wc = WordCloud(font_path=font,
+            #                background_color='#aaaacc')
+            # wc.generate_from_frequencies(dict_data)
 
-    mask = Image.new("RGB", icon.size, (255, 255, 255))
-    mask.paste(icon, icon)
-    mask = np.array(mask)
+            icon = Image.open('./pngwing_com.png')  # 마스크가 될 이미지 불러오기
+            plt.imshow(icon)
 
-    wc = WordCloud(font_path=font,  # 폰트
-                   background_color='white',  # 배경색
-                   mask=mask,
-                   max_words=word_count)  # 마스크설정
+            mask = Image.new("RGB", icon.size, (255, 255, 255))
+            mask.paste(icon, icon)
+            mask = np.array(mask)
 
-    wc.generate_from_frequencies(dict_data)
-    image_colors = wordcloud.ImageColorGenerator(mask)
+            wc = WordCloud(font_path=font,  # 폰트
+                           background_color='white',  # 배경색
+                           mask=mask,
+                           max_words=word_count)  # 마스크설정
 
-    plt.figure(figsize=(12, 12))
-    plt.imshow(wc.recolor(color_func=image_colors), interpolation="bilinear")  # 이것도 결국 matplotlib쓰는거네
-    plt.axis("off")
-    #
-    # with open('C:/PythonWork/PycharmWork/newCrawler/data/' + str(sid1) + '_' + date + '.json', "w") as outfile:
-    #     json.dump(dict_data, outfile)
+            wc.generate_from_frequencies(dict_data)
+            image_colors = wordcloud.ImageColorGenerator(mask)
 
-    wc.to_file(f'C:\PythonWork\PycharmWork\ProjectTeam1\data\csv\{topic}_est_all.png')
+            plt.figure(figsize=(12, 12))
+            plt.imshow(wc.recolor(color_func=image_colors), interpolation="bilinear")  # 이것도 결국 matplotlib쓰는거네
+            plt.axis("off")
+
+            # with open('C:/PythonWork/PycharmWork/newCrawler/data/' + str(sid1) + '_' + date + '.json', "w") as outfile:
+            #     json.dump(dict_data, outfile)
+
+            wc.to_file(f'C:\PythonWork\PycharmWork\ProjectTeam1\data\csv\{topic}_est_{types[type]}.png')
+
+            plt.clf()
+
+            max_idx = 30
+
+            plt.rc('font', family='NanumGothic')
+            mlp.rcParams["axes.unicode_minus"] = False
+
+            word_df = pd.DataFrame.from_dict(dict_data, orient='index', columns=['count'])
+            word_df.sort_values("count", ascending=False, inplace=True)
+            print(word_df[1:11])
+            splot = sns.barplot(x=word_df["count"][1:(max_idx+1)], y=word_df[1:(max_idx+1)].index)
+            splot.set_title(f"{topic}_{types[type]}", fontsize=18)
+            splot.tick_params(axis='both', labelsize=14)
+            sfig = splot.get_figure()
+
+            sfig.savefig(f'C:\PythonWork\PycharmWork\ProjectTeam1\data\csv\gf_{topic}_{types[type]}_{max_idx}.png', dpi=300)
+
+            plt.clf()
