@@ -149,13 +149,14 @@ if __name__ == "__main__" :
     g_font_path = r"C:\Windows\Fonts\malgun.ttf"
 
     topics = ["저출산","출산","출산율"]
+    topics = ["출산"]
     topic = "저출산"
     text = ""
     types = ["all","word"]
     type = 0
     okt = Okt()
 
-    word_count = 30
+    word_count = 5
 
     word_list = []
     rm_words = []
@@ -242,7 +243,7 @@ if __name__ == "__main__" :
 
             plt.clf()
 
-            max_idx = 30
+            max_idx = 5
 
             plt.rc('font', family='NanumGothic')
             mlp.rcParams["axes.unicode_minus"] = False
