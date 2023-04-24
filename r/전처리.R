@@ -106,8 +106,78 @@ leisure <- rename_location(leisure)
 write.csv(leisure, file = "./csv/leisure_sido_2014_2021.csv", row.names = F)
 
 #### 병합 ####
-
-### 시군구별
 merge.b.l <- merge(birth.rate.m, leisure, by= c("시군구별","연도"))
 write.csv(merge.b.l, file = "./csv/merge_b_l_sido_2014_2021.csv", row.names = F)
 
+#### 문화관람 전처리 ####
+
+leisure <- read.csv("지난_1년_동안_한번이상_참여한_여가활동_유형_복수응답_문화예술관람활동_20230424134410.csv", na.strings = "-", header = T)
+leisure[is.na(leisure)] <- 0
+leisure <- subset(leisure, subset = (leisure[,"통계분류.1."] == "17개 시도별"))
+leisure <- leisure[-c(1,4)]
+leisure <- rename(leisure, 연도 = 시점, 시군구별 = 통계분류.2.)
+leisure <- rename_location(leisure)
+
+View(leisure)
+write.csv(leisure, file = "./csv/leisure_1_sido_2016_2021.csv", row.names = F)
+
+merge.b.l <- merge(birth.rate.m, leisure, by= c("시군구별","연도"))
+write.csv(merge.b.l, file = "./csv/merge_b_l_1_sido_2016_2021.csv", row.names = F)
+
+#### 문화참여 전처리 ####
+leisure <- read.csv("지난_1년_동안_한번이상_참여한_여가활동_유형_복수응답_문화예술참여활동_20230424131602.csv", na.strings = "-", header = T)
+leisure[is.na(leisure)] <- 0
+leisure <- subset(leisure, subset = (leisure[,"통계분류.1."] == "17개 시도별"))
+leisure <- leisure[-c(1,4)]
+leisure <- rename(leisure, 연도 = 시점, 시군구별 = 통계분류.2.)
+leisure <- rename_location(leisure)
+
+View(leisure)
+write.csv(leisure, file = "./csv/leisure_2_sido_2016_2021.csv", row.names = F)
+
+merge.b.l <- merge(birth.rate.m, leisure, by= c("시군구별","연도"))
+write.csv(merge.b.l, file = "./csv/merge_b_l_2_sido_2016_2021.csv", row.names = F)
+
+#### 관광활동 전처리 ####
+leisure <- read.csv("지난_1년_동안_한번이상_참여한_여가활동_유형_복수응답_관광활동_20230424123014.csv", na.strings = "-", header = T)
+leisure[is.na(leisure)] <- 0
+leisure <- subset(leisure, subset = (leisure[,"통계분류.1."] == "17개 시도별"))
+leisure <- leisure[-c(1,4)]
+leisure <- rename(leisure, 연도 = 시점, 시군구별 = 통계분류.2.)
+leisure <- rename_location(leisure)
+
+View(leisure)
+write.csv(leisure, file = "./csv/leisure_3_sido_2016_2021.csv", row.names = F)
+
+merge.b.l <- merge(birth.rate.m, leisure, by= c("시군구별","연도"))
+write.csv(merge.b.l, file = "./csv/merge_b_l_3_sido_2016_2021.csv", row.names = F)
+
+
+#### 취미오락 전처리 ####
+leisure <- read.csv("지난_1년_동안_한번이상_참여한_여가활동_유형_복수응답_취미오락활동_20230424115424.csv", na.strings = "-", header = T)
+leisure[is.na(leisure)] <- 0
+leisure <- subset(leisure, subset = (leisure[,"통계분류.1."] == "17개 시도별"))
+leisure <- leisure[-c(1,4)]
+leisure <- rename(leisure, 연도 = 시점, 시군구별 = 통계분류.2.)
+leisure <- rename_location(leisure)
+
+View(leisure)
+write.csv(leisure, file = "./csv/leisure_4_sido_2016_2021.csv", row.names = F)
+
+merge.b.l <- merge(birth.rate.m, leisure, by= c("시군구별","연도"))
+write.csv(merge.b.l, file = "./csv/merge_b_l_4_sido_2016_2021.csv", row.names = F)
+
+#### 휴식활동 전처리 ####
+
+leisure <- read.csv("시도_지난_1년_동안_한번이상_참여한_여가활동_유형_복수응답_휴식활동_20230424102841.csv", na.strings = "-", header = T)
+leisure[is.na(leisure)] <- 0
+leisure <- subset(leisure, subset = (leisure[,"통계분류.1."] == "17개 시도별"))
+leisure <- leisure[-c(1,4)]
+leisure <- rename(leisure, 연도 = 시점, 시군구별 = 통계분류.2.)
+leisure <- rename_location(leisure)
+
+View(leisure)
+write.csv(leisure, file = "./csv/leisure_5_sido_2016_2021.csv", row.names = F)
+
+merge.b.l <- merge(birth.rate.m, leisure, by= c("시군구별","연도"))
+write.csv(merge.b.l, file = "./csv/merge_b_l_5_sido_2016_2021.csv", row.names = F)
