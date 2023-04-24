@@ -181,3 +181,8 @@ write.csv(leisure, file = "./csv/leisure_5_sido_2016_2021.csv", row.names = F)
 
 merge.b.l <- merge(birth.rate.m, leisure, by= c("시군구별","연도"))
 write.csv(merge.b.l, file = "./csv/merge_b_l_5_sido_2016_2021.csv", row.names = F)
+
+### 시군구별
+merge.b.l <- merge(birth.rate.m, leisure, by= c("시군구별","연도"))
+write.csv(merge.b.l, file = "./csv/merge_b_l_sido_2014_2021.csv", row.names = F)
+
