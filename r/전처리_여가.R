@@ -2,7 +2,6 @@
 library(reshape2)
 library(dplyr)
 
-
 #### 함수 정리 ####
 
 rename_location <- function(df) {

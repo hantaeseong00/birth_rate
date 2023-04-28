@@ -132,6 +132,8 @@ sqrt(vif(fit2))
 
 #### 기혼 미혼 차이가 있을까? ####
 
+0.05/3
+
 leisure <- read.csv("지난_1년_동안_가장_많이_참여한_여가활동__12345순위__중분류_20230421124000.csv", na.strings = "-", header = T)
 leisure[is.na(leisure)] <- 0
 leisure <- subset(leisure, subset = (leisure[,"통계분류.1."] == "혼인상태별"))

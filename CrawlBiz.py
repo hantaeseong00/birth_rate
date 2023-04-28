@@ -51,7 +51,7 @@ mlp.rcParams["axes.unicode_minus"] = False
 
 
 # Press the green button in the gutter to run the script.
-if __name__ == '__main__':
+if __name__ != '__main__':
     cols = ["url","title","startdate","enddate","org","subtitle","subcontents"]
     year = "2023"
 
@@ -73,7 +73,6 @@ if __name__ == '__main__':
     driver.find_element(By.CSS_SELECTOR, 'button.btn-select').click()
 
     page_num=1;
-
     while page_num<10000:
         # driver.get(driver.current_url)
         page_num += 1
@@ -97,13 +96,13 @@ if __name__ == '__main__':
             # print(li_subcontents)
             # print("===============================")
             data = dict()
-            data[cols[0]] = li_title
-            data[cols[1]] = li_url
-            data[cols[2]] = li_startdate
-            data[cols[3]] = li_enddate
-            data[cols[4]] = li_org
-            data[cols[5]] = li_subtitle
-            data[cols[6]] = li_subcontents
+            data[cols[0]] = li_title.replace(","," ")
+            data[cols[1]] = li_url.replace(","," ")
+            data[cols[2]] = li_startdate.replace(","," ")
+            data[cols[3]] = li_enddate.replace(","," ")
+            data[cols[4]] = li_org.replace(","," ")
+            data[cols[5]] = li_subtitle.replace(","," ")
+            data[cols[6]] = li_subcontents.replace(","," ")
             init = pd.concat([init, pd.DataFrame(data, index=[0])], ignore_index=True)
 
         print("==========",page_num,"===========")
@@ -111,10 +110,37 @@ if __name__ == '__main__':
         # init.to_csv('./crawling/n_news_20230407_euc_kr.csv', index=False, encoding="EUC-KR")
 
         if(((page_num-1)%10) == 0):
-            init.to_csv(f'./data/crawling/biz_출산_{year}.csv', index=False)
+            init.to_csv(f'./data/crawling/biz_출산_{year}.csv', index=False, encoding="utf-8")
             driver.find_element(By.CSS_SELECTOR, 'button.next').click()
         else:
-            paging = driver.find_elements(By.CSS_SELECTOR,'nav.paging li')
-            paging[((page_num-1)%10)].click()
+            try:
+                paging = driver.find_elements(By.CSS_SELECTOR,'nav.paging li')
+                paging[((page_num-1)%10)].click()
+            except:
+                init.to_csv(f'./data/crawling/biz_출산_{year}.csv', index=False, encoding="utf-8")
+                break
 
-        time.sleep(1.5)
+            time.sleep(1.5)
+
+
+if __name__ == '__main__':
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    year = 2023
+    biz = pd.read_csv(f'./data/crawling/biz_출산_{year}.csv', header=[0], encoding="utf-8")
+    print(biz)
+    for idx in tqdm(range(0,len(biz))):
+        url = biz.loc[idx,"title"]
+        print(url)
+        driver.get(url)
+
+        rows = driver.find_elements(By.CSS_SELECTOR,'th[scope=row]')
+
+        text = ""
+        for row in rows:
+            title = row.text
+            titles = ["사업명", "사업목적", "주요사업내용", "수혜대상 및 조건"]
+            if title in titles:
+                contents = row.find_element(By.XPATH, '../td').text
+                text = text + contents.replace(","," ").replace("\n","").strip()
+        biz.loc[idx,"urlcontents"] = text
+    biz.to_csv(f'./data/crawling/biz_birth_{year}.csv', index=False, encoding="utf-8")

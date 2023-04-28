@@ -249,6 +249,8 @@ y = birth_rate.sub$tentative.2022
 cor(x, y)
 
 View(birth_rate.sub)
+
+write.csv(birth_rate.sub, file = "./csv/birth_rate_sido_2016_2022.csv", row.names = F)
 summary(fit)
 
 # 정규분포 여부 파악
