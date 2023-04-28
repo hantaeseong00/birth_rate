@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?><response>
+<header>
+<resultCode>INFO-00</resultCode>
+<resultMsg>NORMAL SERVICE</resultMsg>
+</header>
+<body>
+<items>
+  <item>
+    <num>1</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100147829</huboid>
+    <sggName>서울특별시</sggName>
+    <sdName>서울특별시</sdName>
+    <wiwName/>
+    <giho>3</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>조희연</name>
+    <hanjaName>曺喜昖</hanjaName>
+    <gender>남</gender>
+    <birthday>19561006</birthday>
+    <age>65</age>
+    <addr>서울특별시 구로구 연동로</addr>
+    <jobId>226</jobId>
+    <job>서울특별시교육감</job>
+    <eduId>221</eduId>
+    <edu>연세대학교 대학원 사회학과 졸업(문학박사)</edu>
+    <career1>(전)20대 서울특별시교육감</career1>
+    <career2>(현)21대 서울특별시교육감</career2>
+    <dugsu>1614564</dugsu>
+    <dugyul>38.1</dugyul>
+  </item>
+  <item>
+    <num>2</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100138538</huboid>
+    <sggName>부산광역시</sggName>
+    <sdName>부산광역시</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>하윤수</name>
+    <hanjaName>河潤秀</hanjaName>
+    <gender>남</gender>
+    <birthday>19620215</birthday>
+    <age>60</age>
+    <addr>부산광역시 해운대구 선수촌로</addr>
+    <jobId>88</jobId>
+    <job>부산교육대학교 교수</job>
+    <eduId>221</eduId>
+    <edu>동아대학교 대학원 법학과 박사과정 졸업(법학박사)</edu>
+    <career1>(전)부산교육대학교 총장</career1>
+    <career2>(전)한국교원단체총연합회 회장</career2>
+    <dugsu>706152</dugsu>
+    <dugyul>50.82</dugyul>
+  </item>
+  <item>
+    <num>3</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100149542</huboid>
+    <sggName>대구광역시</sggName>
+    <sdName>대구광역시</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>강은희</name>
+    <hanjaName>姜恩姬</hanjaName>
+    <gender>여</gender>
+    <birthday>19641023</birthday>
+    <age>57</age>
+    <addr>대구광역시 수성구 명덕로</addr>
+    <jobId>226</jobId>
+    <job>대구광역시 교육감</job>
+    <eduId>68</eduId>
+    <edu>경북대학교 사범대학 물리교육과 졸업</edu>
+    <career1>(현) 대구광역시 교육감</career1>
+    <career2>(전) 여성가족부 장관</career2>
+    <dugsu>530235</dugsu>
+    <dugyul>61.61</dugyul>
+  </item>
+  <item>
+    <num>4</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100146513</huboid>
+    <sggName>인천광역시</sggName>
+    <sdName>인천광역시</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>도성훈</name>
+    <hanjaName>都成勳</hanjaName>
+    <gender>남</gender>
+    <birthday>19601210</birthday>
+    <age>61</age>
+    <addr>인천광역시 남동구 소래역로</addr>
+    <jobId>226</jobId>
+    <job>인천광역시교육감</job>
+    <eduId>68</eduId>
+    <edu>중앙대학교 국어국문학과 졸업</edu>
+    <career1>(전)동암중학교 교장</career1>
+    <career2>(현)인천광역시교육감</career2>
+    <dugsu>494366</dugsu>
+    <dugyul>41.46</dugyul>
+  </item>
+  <item>
+    <num>5</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100138452</huboid>
+    <sggName>광주광역시</sggName>
+    <sdName>광주광역시</sdName>
+    <wiwName/>
+    <giho>4</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>이정선</name>
+    <hanjaName>李廷先</hanjaName>
+    <gender>남</gender>
+    <birthday>19590210</birthday>
+    <age>63</age>
+    <addr>광주광역시 동구 무등로</addr>
+    <jobId>88</jobId>
+    <job>광주교육대학교 교육학과 교수</job>
+    <eduId>221</eduId>
+    <edu>미국 럿거스 뉴저지 주립대학교 졸업(교육학 박사)(1990.09.01.~1995.10.01.)</edu>
+    <career1>(전)광주교육대학교 제6대 총장</career1>
+    <career2>(현)광주교육대학교 교육학과 교수</career2>
+    <dugsu>154068</dugsu>
+    <dugyul>34.91</dugyul>
+  </item>
+  <item>
+    <num>6</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100148027</huboid>
+    <sggName>대전광역시</sggName>
+    <sdName>대전광역시</sdName>
+    <wiwName/>
+    <giho>3</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>설동호</name>
+    <hanjaName>薛東浩</hanjaName>
+    <gender>남</gender>
+    <birthday>19501121</birthday>
+    <age>71</age>
+    <addr>대전광역시 유성구 반석동로</addr>
+    <jobId>226</jobId>
+    <job>대전광역시교육감</job>
+    <eduId>221</eduId>
+    <edu>충남대학교 대학원 영어영문학과 졸업(문학박사)</edu>
+    <career1>(현)대전광역시교육감</career1>
+    <career2>(전)한밭대 4,5대 총장</career2>
+    <dugsu>247077</dugsu>
+    <dugyul>41.5</dugyul>
+  </item>
+  <item>
+    <num>7</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100149241</huboid>
+    <sggName>울산광역시</sggName>
+    <sdName>울산광역시</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>노옥희</name>
+    <hanjaName>盧玉姬</hanjaName>
+    <gender>여</gender>
+    <birthday>19580515</birthday>
+    <age>64</age>
+    <addr>울산광역시 동구 진성15길</addr>
+    <jobId>226</jobId>
+    <job>울산광역시교육감</job>
+    <eduId>68</eduId>
+    <edu>부산대학교 수학과 졸업</edu>
+    <career1>(전)현대공고, 명덕여중 교사</career1>
+    <career2>(전)울산광역시 교육위원</career2>
+    <dugsu>266647</dugsu>
+    <dugyul>55.03</dugyul>
+  </item>
+  <item>
+    <num>8</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100144245</huboid>
+    <sggName>경기도</sggName>
+    <sdName>경기도</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>임태희</name>
+    <hanjaName>任太熙</hanjaName>
+    <gender>남</gender>
+    <birthday>19561201</birthday>
+    <age>65</age>
+    <addr>경기도 성남시 분당구 정자일로</addr>
+    <jobId>224</jobId>
+    <job>무직</job>
+    <eduId>221</eduId>
+    <edu>서울대학교 대학원 졸업(경영학석사)</edu>
+    <career1>(전) 청와대 대통령실장</career1>
+    <career2>(전) 국립 한경대학교 총장</career2>
+    <dugsu>3081100</dugsu>
+    <dugyul>54.79</dugyul>
+  </item>
+  <item>
+    <num>9</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100138457</huboid>
+    <sggName>강원도</sggName>
+    <sdName>강원도</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>신경호</name>
+    <hanjaName>申慶浩</hanjaName>
+    <gender>남</gender>
+    <birthday>19520915</birthday>
+    <age>69</age>
+    <addr>강원도 춘천시 행촌로</addr>
+    <jobId>224</jobId>
+    <job>무직</job>
+    <eduId>221</eduId>
+    <edu>강원대학교 교육대학원 수학교육전공 졸업(교육학석사)</edu>
+    <career1>(전)강원도춘천교육지원청 교육장</career1>
+    <career2>(전)강원도교육청 교육국 중등교육과장</career2>
+    <dugsu>210523</dugsu>
+    <dugyul>29.51</dugyul>
+  </item>
+  <item>
+    <num>10</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100138470</huboid>
+    <sggName>충청북도</sggName>
+    <sdName>충청북도</sdName>
+    <wiwName/>
+    <giho>3</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>윤건영</name>
+    <hanjaName>尹建榮</hanjaName>
+    <gender>남</gender>
+    <birthday>19600428</birthday>
+    <age>62</age>
+    <addr>충청북도 청주시 서원구 매봉로</addr>
+    <jobId>88</jobId>
+    <job>청주교육대학교 명예교수</job>
+    <eduId>221</eduId>
+    <edu>서울대학교 대학원 졸업(교육학박사)</edu>
+    <career1>(전)청주교육대학교 총장</career1>
+    <career2>(전)충청북도 교원단체총연합회(충북교총) 회장</career2>
+    <dugsu>375295</dugsu>
+    <dugyul>55.95</dugyul>
+  </item>
+  <item>
+    <num>11</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100147495</huboid>
+    <sggName>충청남도</sggName>
+    <sdName>충청남도</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>김지철</name>
+    <hanjaName>金知哲</hanjaName>
+    <gender>남</gender>
+    <birthday>19511010</birthday>
+    <age>70</age>
+    <addr>충청남도 홍성군 홍북읍 신대로</addr>
+    <jobId>226</jobId>
+    <job>충청남도교육감</job>
+    <eduId>68</eduId>
+    <edu>공주사범대학 영어교육과 졸업</edu>
+    <career1>(전)제9대 충청남도의회 교육의원</career1>
+    <career2>(현)충청남도교육감</career2>
+    <dugsu>287639</dugsu>
+    <dugyul>33.79</dugyul>
+  </item>
+  <item>
+    <num>12</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100138464</huboid>
+    <sggName>전라북도</sggName>
+    <sdName>전라북도</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>서거석</name>
+    <hanjaName>徐巨錫</hanjaName>
+    <gender>남</gender>
+    <birthday>19540607</birthday>
+    <age>67</age>
+    <addr>전라북도 전주시 완산구 맏내3길</addr>
+    <jobId>224</jobId>
+    <job>무직</job>
+    <eduId>221</eduId>
+    <edu>충남대학교 대학원 졸업(법학박사)</edu>
+    <career1>(전) 제15대, 제16대 전북대학교 총장</career1>
+    <career2>(현) 국가아동정책조정위원</career2>
+    <dugsu>310247</dugsu>
+    <dugyul>43.52</dugyul>
+  </item>
+  <item>
+    <num>13</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100138468</huboid>
+    <sggName>전라남도</sggName>
+    <sdName>전라남도</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>김대중</name>
+    <hanjaName>金大中</hanjaName>
+    <gender>남</gender>
+    <birthday>19610813</birthday>
+    <age>60</age>
+    <addr>전라남도 목포시 영산로29번길</addr>
+    <jobId>225</jobId>
+    <job>전남교육자치플랫폼 대표</job>
+    <eduId>69</eduId>
+    <edu>목포대학교 대학원 국어국문학과 박사과정 수료</edu>
+    <career1>(현)전남교육대전환 실천연대 상임위원장</career1>
+    <career2>(전)노무현재단 운영위원(창립위원)</career2>
+    <dugsu>393462</dugsu>
+    <dugyul>45.08</dugyul>
+  </item>
+  <item>
+    <num>14</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100147382</huboid>
+    <sggName>경상북도</sggName>
+    <sdName>경상북도</sdName>
+    <wiwName/>
+    <giho>3</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>임종식</name>
+    <hanjaName>林宗植</hanjaName>
+    <gender>남</gender>
+    <birthday>19550820</birthday>
+    <age>66</age>
+    <addr>경상북도 안동시 송현길</addr>
+    <jobId>226</jobId>
+    <job>경상북도교육감</job>
+    <eduId>221</eduId>
+    <edu>고려대학교 교육대학원 석사과정(교육행정전공)졸업</edu>
+    <career1>(현) 경상북도교육감</career1>
+    <career2>(전)경상북도교육청 교육정책국장</career2>
+    <dugsu>561389</dugsu>
+    <dugyul>49.77</dugyul>
+  </item>
+  <item>
+    <num>15</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100146329</huboid>
+    <sggName>경상남도</sggName>
+    <sdName>경상남도</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>박종훈</name>
+    <hanjaName>朴鍾勛</hanjaName>
+    <gender>남</gender>
+    <birthday>19601022</birthday>
+    <age>61</age>
+    <addr>경상남도 창원시 성산구 반송로</addr>
+    <jobId>226</jobId>
+    <job>경상남도교육감</job>
+    <eduId>221</eduId>
+    <edu>경남대학교 대학원 정치외교학과 졸업 (정치학박사)</edu>
+    <career1>(현)경상남도교육감</career1>
+    <career2>(전)경상남도교육감</career2>
+    <dugsu>727720</dugsu>
+    <dugyul>50.23</dugyul>
+  </item>
+  <item>
+    <num>16</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100138445</huboid>
+    <sggName>제주특별자치도</sggName>
+    <sdName>제주특별자치도</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>김광수</name>
+    <hanjaName>金光洙</hanjaName>
+    <gender>남</gender>
+    <birthday>19521204</birthday>
+    <age>69</age>
+    <addr>제주특별자치도 제주시 오남로</addr>
+    <jobId>224</jobId>
+    <job>무직</job>
+    <eduId>221</eduId>
+    <edu>고려대학교 교육대학원 졸업(교육학석사)</edu>
+    <career1>(전)제주제일고등학교장</career1>
+    <career2>(전)제주특별자치도의회 교육의원</career2>
+    <dugsu>168019</dugsu>
+    <dugyul>57.47</dugyul>
+  </item>
+  <item>
+    <num>17</num>
+    <sgId>20220601</sgId>
+    <sgTypecode>11</sgTypecode>
+    <huboid>100147333</huboid>
+    <sggName>세종특별자치시</sggName>
+    <sdName>세종특별자치시</sdName>
+    <wiwName/>
+    <giho>1</giho>
+    <gihoSangse/>
+    <jdName/>
+    <name>최교진</name>
+    <hanjaName>崔敎振</hanjaName>
+    <gender>남</gender>
+    <birthday>19531124</birthday>
+    <age>68</age>
+    <addr>세종특별자치시  남세종로</addr>
+    <jobId>226</jobId>
+    <job>세종특별자치시교육감</job>
+    <eduId>68</eduId>
+    <edu>공주대학교 사범대학 국어교육과 졸업</edu>
+    <career1>(현)전국시도교육감협의회장</career1>
+    <career2>(현)노무현재단 대전·세종·충남 공동대표</career2>
+    <dugsu>44905</dugsu>
+    <dugyul>30.83</dugyul>
+  </item>
+</items>
+<numOfRows>10000</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>17</totalCount>
+</body>
+</response>

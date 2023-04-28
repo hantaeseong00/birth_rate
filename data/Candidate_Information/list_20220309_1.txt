@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><response>
+<header>
+<resultCode>INFO-00</resultCode>
+<resultMsg>NORMAL SERVICE</resultMsg>
+</header>
+<body>
+<items>
+  <item>
+    <num>1</num>
+    <sgId>20220309</sgId>
+    <sgTypecode>1</sgTypecode>
+    <huboid>100138362</huboid>
+    <sggName>대한민국</sggName>
+    <sdName>전국</sdName>
+    <wiwName/>
+    <giho>2</giho>
+    <gihoSangse/>
+    <jdName>국민의힘</jdName>
+    <name>윤석열</name>
+    <hanjaName>尹錫悅</hanjaName>
+    <gender>남</gender>
+    <birthday>19601218</birthday>
+    <age>61</age>
+    <addr>서울특별시 서초구 서초중앙로</addr>
+    <jobId>75</jobId>
+    <job>정치인</job>
+    <eduId>221</eduId>
+    <edu>서울대학교 대학원 졸업(법학석사)</edu>
+    <career1>(전) 제43대 검찰총장</career1>
+    <career2>(전) 서울중앙지방검찰청 검사장</career2>
+    <dugsu>16394815</dugsu>
+    <dugyul>48.56</dugyul>
+  </item>
+</items>
+<numOfRows>10000</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>1</totalCount>
+</body>
+</response>
